@@ -96,6 +96,10 @@ ul.a {
   text-align: left;
 }
 
+.blue {
+  color: #0000ee;
+}
+
 .third {
   width: 27%;
   display: flex;

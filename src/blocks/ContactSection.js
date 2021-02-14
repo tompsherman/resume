@@ -32,6 +32,18 @@ const RightSection = (props) => {
                             <a href="mailto:tpsherman703@gmail.com">tpsherman703@gmail.com</a>
                         </h3>
                     </div>
+                    {/* <div className="flex-card-row">
+                        <h3 className="forty right-text">github:</h3>
+                        <h3 className="forty  left-text blue"> 
+                            <a href="https://github.com/tompsherman/">tompsherman</a>
+                        </h3>
+                    </div>
+                    <div className="flex-card-row">
+                        <h3 className="forty right-text">LinkedIn:</h3>
+                        <h3 className="forty  left-text blue"> 
+                            <a href="https://www.linkedin.com/in/tom-sherman-full-stack-csm/">Tom Sherman C.S.M, F.O.T.</a>
+                        </h3>
+                    </div> */}
                 </div>
         </div>
     )
