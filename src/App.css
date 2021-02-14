@@ -1,3 +1,189 @@
+* {
+  /* border: 1px solid black; */
+  margin: 1%;
+  padding: 1%;
+}
+
+.border {
+  border: 1px solid black;
+}
+
+.one {
+  background-color: #5fad56;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+  width: 30%;
+  height: auto;
+}
+
+a:visited {
+  color: whitesmoke;
+}
+
+a:hover {
+  background-color: #1b1e23;
+  color: whitesmoke;
+}
+
+.two {
+  background-color: #f2c14e;
+  color: whitesmoke;
+}
+
+.three {
+  background-color: #f78154;
+  color: whitesmoke;
+}
+
+.four {
+  background-color: #4d9078;
+  color: whitesmoke;
+}
+
+.five {
+  background-color: #b4436c;
+  color: whitesmoke;
+}
+
+::placeholder {
+  color: whitesmoke;
+}
+
+.right {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.left {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+ul.a {
+  list-style-type: circle;
+  list-style-position: outside;
+}
+
+.full {
+  width: 100%;
+}
+
+.half {
+  width: 50%;
+}
+
+.imghalf {
+  width: 50%;
+  height: auto;
+}
+
+.third {
+  width: 27%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fifth {
+  width: 18%;
+  display: flex;
+  justify-content: center;
+}
+
+.eighth {
+  width: 8%;
+  display: flex;
+  justify-content: center;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.flex-card-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.flex-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+a .head-button-forward {
+  width: 30%;
+  height: auto;
+}
+
+.head-button-forward {
+  filter: invert(100%) sepia(1%) saturate(49%) hue-rotate(206deg)
+    brightness(116%) contrast(92%);
+  border: none;
+}
+
+a .head-button-backward {
+  width: 30%;
+  height: auto;
+}
+
+.head-button-backward {
+  filter: invert(100%) sepia(1%) saturate(49%) hue-rotate(206deg)
+    brightness(116%) contrast(92%);
+  border: none;
+  transform: rotate(180deg);
+}
+
+a .head-button-home {
+  width: 30%;
+  height: auto;
+}
+
+.head-button-home {
+  filter: invert(100%) sepia(1%) saturate(49%) hue-rotate(206deg)
+    brightness(116%) contrast(92%);
+  border: none;
+}
+
+.rotate {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform: rotate(180deg);
+  text-align: center;
+}
+
+.big-screen {
+  display: flex;
+  flex-direction: row;
+}
+
+.on {
+  background-color: #1b1e23;
+  color: whitesmoke;
+}
+
+.quote {
+  font-size: 2rem;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .App {
   text-align: center;
 }
@@ -7,9 +193,108 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (max-width: 1300px) {
+  .third {
+    width: 40%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .eighth {
+    width: 20%;
+  }
+  .third {
+    width: 100%;
+  }
+  .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .left {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  .imghalf {
+    margin: auto;
+  }
+  .half {
+    width: 75%;
+    margin: auto;
+  }
+
+  a .head-button-home {
+    width: 30%;
+    height: auto;
+  }
+
+  a .head-button-backward {
+    width: 30%;
+    height: auto;
+  }
+
+  a .head-button-forward {
+    width: 30%;
+    height: auto;
+  }
+
+  .flex-head {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mobile {
+    width: 30%;
+  }
+
+  .flex-card-row {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 653px) {
+  .imghalf {
+    width: 100%;
+  }
+  .half {
+    width: 100%;
+  }
+  .button-container {
+    flex-direction: column;
+  }
+  .one {
+    width: 100%;
+  }
+  .two {
+    width: 100%;
+  }
+  .three {
+    width: 100%;
+  }
+  .four {
+    width: 100%;
+  }
+  .five {
+    width: 100%;
+  }
+
+  a .head-button-home {
+    width: 75%;
+    height: auto;
+  }
+
+  a .head-button-backward {
+    width: 75%;
+    height: auto;
+  }
+
+  a .head-button-forward {
+    width: 75%;
+    height: auto;
   }
 }
 
