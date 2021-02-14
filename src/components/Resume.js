@@ -2,6 +2,7 @@ import React from 'react'
 import LeftSection from '../blocks/LeftSection'
 import RightSection from '../blocks/RightSection'
 import Projects from './Projects'
+import ContactSection from '../blocks/ContactSection'
 
 const Resume = () => {
     let projObj = [
@@ -257,7 +258,7 @@ const Resume = () => {
         descript: [
             "phone: (302) 703-7088",
             "email: tpsherman703@gmail.com",
-            "address: ",
+            "",
         ]
     }
 
@@ -423,7 +424,7 @@ const Resume = () => {
                         </a>
                     </div>
                 </div>
-                <RightSection projObj={contact}/>
+                <ContactSection projObj={contact}/>
             </section>
         </div>
     )

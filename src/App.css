@@ -84,6 +84,18 @@ ul.a {
   height: auto;
 }
 
+.forty {
+  width: 40%;
+}
+
+.right-text {
+  text-align: end;
+}
+
+.left-text {
+  text-align: left;
+}
+
 .third {
   width: 27%;
   display: flex;
@@ -108,6 +120,15 @@ ul.a {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+
+.flex-row-tight {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  border: 1px solid black;
 }
 
 .flex-card-row {
