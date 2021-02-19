@@ -20,15 +20,15 @@ const RightSection = (props) => {
                         <h4>{projObj.role}</h4>
                     </div>
                     <h3 style={{textAlign: "center"}}>{projObj.stack}</h3>
-                    <div className="flex-card-row">
-                        <h3 className="forty right-text">phone:</h3>
-                        <h3 className="forty  left-text"> 
+                    <div className="left-text">
+                        <h3 className="">phone:</h3>
+                        <h3 className=""> 
                             <a href="tel:302-703-7088">(302) 703-7088</a>
                         </h3>
                     </div>
-                    <div className="flex-card-row">
-                        <h3 className="forty right-text">email:</h3>
-                        <h3 className="forty  left-text"> 
+                    <div className="left-text">
+                        <h3 className="">email:</h3>
+                        <h3 className=""> 
                             <a href="mailto:tpsherman703@gmail.com">tpsherman703@gmail.com</a>
                         </h3>
                     </div>
