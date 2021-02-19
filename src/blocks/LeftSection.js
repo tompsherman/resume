@@ -5,7 +5,7 @@ const LeftSection = (props) => {
     const {extra} = props
 
     let descMap = projObj.descript.map(bullet => {
-        return <ul class="a">{bullet}</ul>
+        return <ul class="left-text">{bullet}</ul>
     })
 
     return (
