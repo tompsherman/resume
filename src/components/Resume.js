@@ -313,7 +313,7 @@ const Resume = () => {
                         <a href="#top">
                             <img src="https://res.cloudinary.com/dzom9ahsn/image/upload/v1612713858/resume%20repo/right-arrow_simrlh.png" className="head-button-backward"/>
                         </a>
-                        <a href="#top">
+                        <a href="#home">
                             <img src="https://res.cloudinary.com/dzom9ahsn/image/upload/v1612715648/resume%20repo/home_bjd6l7.png" className="head-button-home"/>
                         </a>
                         <a href="#employment">
@@ -356,7 +356,7 @@ const Resume = () => {
                         <a href="#skills">
                             <img src="https://res.cloudinary.com/dzom9ahsn/image/upload/v1612713858/resume%20repo/right-arrow_simrlh.png" className="head-button-backward"/>
                         </a>
-                        <a href="#top">
+                        <a href="#home">
                             <img src="https://res.cloudinary.com/dzom9ahsn/image/upload/v1612715648/resume%20repo/home_bjd6l7.png" className="head-button-home"/>
                         </a>
                         <a href="#education">
@@ -380,7 +380,7 @@ const Resume = () => {
                         <a href="#employment">
                             <img src="https://res.cloudinary.com/dzom9ahsn/image/upload/v1612713858/resume%20repo/right-arrow_simrlh.png" className="head-button-backward"/>
                         </a>
-                        <a href="#top">
+                        <a href="#home">
                             <img src="https://res.cloudinary.com/dzom9ahsn/image/upload/v1612715648/resume%20repo/home_bjd6l7.png" className="head-button-home"/>
                         </a>
                         <a href="#projects">
@@ -399,7 +399,7 @@ const Resume = () => {
                         <a href="#education">
                             <img src="https://res.cloudinary.com/dzom9ahsn/image/upload/v1612713858/resume%20repo/right-arrow_simrlh.png" className="head-button-backward"/>
                         </a>
-                        <a href="#top">
+                        <a href="#home">
                             <img src="https://res.cloudinary.com/dzom9ahsn/image/upload/v1612715648/resume%20repo/home_bjd6l7.png" className="head-button-home"/>
                         </a>
                         <a href="#contact">
@@ -416,7 +416,7 @@ const Resume = () => {
                         <a href="#education">
                             <img src="https://res.cloudinary.com/dzom9ahsn/image/upload/v1612713858/resume%20repo/right-arrow_simrlh.png" className="head-button-backward"/>
                         </a>
-                        <a href="#top">
+                        <a href="#home">
                             <img src="https://res.cloudinary.com/dzom9ahsn/image/upload/v1612715648/resume%20repo/home_bjd6l7.png" className="head-button-home"/>
                         </a>
                         <a href="#references">

@@ -218,6 +218,32 @@ a .head-button-home {
   pointer-events: none;
 }
 
+.footer {
+  background-color: #1b1e23;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.foot-note {
+  padding: 0;
+  margin: 1%;
+  /* border: 1px solid lime; */
+  width: auto;
+}
+
+.foot-icon {
+  height: 5vh;
+  filter: invert(100%) sepia(1%) saturate(49%) hue-rotate(206deg)
+    brightness(116%) contrast(92%);
+}
+
+a:hover .foot-icon {
+  background-color: whitesmoke;
+}
+
 @media (max-width: 1300px) {
   .third {
     width: 40%;
