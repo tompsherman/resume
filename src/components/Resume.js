@@ -15,6 +15,8 @@ const Resume = () => {
             deployed: "remote",
             image: "https://res.cloudinary.com/dzom9ahsn/image/upload/v1612488900/resume%20repo/FB_posts_12_f81q9f.png",
             stack: "research & development | product management | marketing | patent law | data analysis",
+            dream: "",
+            reality: "",
             descript: ["Discovered 5th season of year, invented the 'Quintile-based Annual Timekeeping System and Perpetual Calendar' to track solar year more precisely and accurately than current standards", "Represent self as a credentialed pro se inventor before the US Patent and Trademark Office", "Develop commercial, academic, and personal applications for the New Calendar system",
             "Winner of the Passage to Profit Pitch contest (April 2019)", "User base increasing on average of 31% year over year "]
         },
@@ -27,6 +29,8 @@ const Resume = () => {
             deployed: "",
             image: "https://res.cloudinary.com/dzom9ahsn/image/upload/v1612517998/resume%20repo/btd_logo_o9gskx.jpg",
             stack: "journalism | communication | broadcasting | audio engineering | ",
+            dream: "",
+            reality: "",
             descript: [
                 "Prepare daily newscasts reporting local events covering a 5,500 square mile territory", 
                 "Research, write, report up to 8 stories per day",
@@ -44,6 +48,8 @@ const Resume = () => {
             deployed: "",
             image: "https://res.cloudinary.com/dzom9ahsn/image/upload/v1612519110/resume%20repo/mooncatcomedy_pnn2ty.png",
             stack: "non-profit organizations | public speaking | communications | events management  ",
+            dream: "",
+            reality: "",
             descript: [
                 "Founder of a 501(c)3 non-profit to help amateur comedians on Delmarva Peninsula access shows, venues, and opportunities.",
                 "Oversee all day-to-day aspects of organization, including administration, marketing, outreach, and accounting.",
@@ -62,6 +68,8 @@ const Resume = () => {
             deployed: "",
             image: "https://res.cloudinary.com/dzom9ahsn/image/upload/v1612520797/resume%20repo/snallyOps_zlp8yn.jpg",
             stack: "events planning | logistics | communication",
+            dream: "",
+            reality: "",
             descript: [
                 "Support event operations at a variety of events and locations across the midatlantic region",
                 "Building infrastructure, corralling humans, communicating across teams",
@@ -81,6 +89,8 @@ const Resume = () => {
             deployed: "",
             image: "https://res.cloudinary.com/dzom9ahsn/image/upload/v1612522323/resume%20repo/WGMD-with-Red-White-Blue-No-Outlines-On-White-780x340x72-20200721-1900_n87gtx.png",
             stack: "journalism | communication | broadcasting | audio engineering | photography",
+            dream: "",
+            reality: "",
             descript: [
                 "Prepare daily newscasts reporting local events covering a 5,500 square mile territory",
                 "Research, write, report, record, edit 12-15 news stories daily for both live & recorded broadcasts",
@@ -98,6 +108,8 @@ const Resume = () => {
             deployed: "",
             image: "https://res.cloudinary.com/dzom9ahsn/image/upload/v1612522635/resume%20repo/dogfish_logo_y6uyav.jpg",
             stack: "public speaking | hospitality | suppy chain management | customer service | food & beverage",
+            dream: "",
+            reality: "",
             descript: [
                 "Created a unique, customer-oriented, fact-laden tour of the brewery, its history, & manufacturing processes delivered with passion, charisma, & showmanship twice daily to groups of 30+ people.",
                 "Provided customer service and information to up to 1000+ guests daily, while manning the bar, food truck, host stand, and/or shop.",
@@ -114,6 +126,8 @@ const Resume = () => {
             deployed: "",
             image: "https://res.cloudinary.com/dzom9ahsn/image/upload/v1612567264/resume%20repo/tom_africa_image_writing_freelance_jkaibx.png",
             stack: " writing | communications | journalism | research | photography",
+            dream: "",
+            reality: "",
             descript: [
                 "Pitch stories to editors and publications",
                 "Research, report on event and stories both in person and remotely",
@@ -134,6 +148,8 @@ const Resume = () => {
             deployed: "",
             image: "https://res.cloudinary.com/dzom9ahsn/image/upload/v1612538835/resume%20repo/run_for_vets_action_fsorgm.jpg",
             stack: " non-profit organizations | logistics | business development",
+            dream: "",
+            reality: "",
             descript: [
                 "Co-founded a 501(c)3 non-profit organization to support veterans returning from the Iraq & Afghanistan Wars mentally, physically, & socially",
                 "Planned the logistics for a runner to complete a year-long, 3,600 mile run across America from Oceanside, California to Portland, Maine including the route planning and cost projections",
@@ -150,6 +166,8 @@ const Resume = () => {
             deployed: "",
             image: "https://res.cloudinary.com/dzom9ahsn/image/upload/v1612551013/resume%20repo/lambdaschool_jts8lq.png",
             stack: " HTML | CSS | JavaScript | Node.js | Python | SQLite ",
+            dream: "",
+            reality: "",
             descript: [
                 "",
                 "",
@@ -165,6 +183,8 @@ const Resume = () => {
             deployed: "",
             image: "https://res.cloudinary.com/dzom9ahsn/image/upload/v1612550981/resume%20repo/scrum_inc_cnajtl.png",
             stack: " Agile | SCRUM | project management",
+            dream: "",
+            reality: "",
             descript: [
                 "",
                 "",
@@ -180,6 +200,8 @@ const Resume = () => {
             deployed: "",
             image: "https://res.cloudinary.com/dzom9ahsn/image/upload/v1612550986/resume%20repo/willima_and_mary_ofo6cc.png",
             stack: " finance | supply chain management | geology ",
+            dream: "",
+            reality: "",
             descript: [
                 "",
                 "",
@@ -255,6 +277,8 @@ const Resume = () => {
         deployed: "",
         image: "https://res.cloudinary.com/dzom9ahsn/image/upload/v1612646738/resume%20repo/tom_gal_r1piuo.png",
         stack: "front end | back end | full stack | scrum master",
+        dream: "",
+        reality: "",
         descript: [
             "phone: (302) 703-7088",
             "email: tpsherman703@gmail.com",
